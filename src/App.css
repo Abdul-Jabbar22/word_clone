@@ -1,0 +1,66 @@
+/* Default styles for all screen sizes */
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #1d518d;
+  padding: 20px;
+  color: white;
+}
+
+.editor-container {
+  padding: 20px;
+}
+
+.ql-container {
+  height: 50vh;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #1d518d;
+  color: white;
+  border: 3px solid;
+  border-radius: 15px;
+  border-color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 1440px) {
+  /* Styles for devices with a maximum width of 1440px */
+  .App-header {
+    padding: 15px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  /* Styles for devices with a maximum width of 1024px */
+  .App-header {
+    padding: 10px;
+  }
+  
+  .ql-container {
+    height: 40vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* Styles for devices with a maximum width of 768px */
+  .App-header {
+    padding: 5px;
+  }
+  
+  .ql-container {
+    height: 30vh;
+  }
+  
+  button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
